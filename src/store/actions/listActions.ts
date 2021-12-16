@@ -1,8 +1,8 @@
 import { createStore, combineReducers } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 
-import listReducer from './reducers/listReducer';
-import notificationReducer from './reducers/notificationReducer';
+import listReducer from '../reducers/listReducer';
+import notificationReducer from '../reducers/notificationReducer';
 
 const rootReducer = combineReducers({
   list: listReducer,
