@@ -169,4 +169,4 @@ export default (state = initialState, action: ListsAction): ListState => {
     default:
       return state;
   }
-}
+}created the initial states
